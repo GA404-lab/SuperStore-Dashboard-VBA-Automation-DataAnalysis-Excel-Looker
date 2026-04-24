@@ -17,7 +17,7 @@ A full sales analysis of a US-based retail superstore covering 4 years of transa
 **Tools:** Microsoft Excel, Google Looker Studio<br>
 **Dataset:** [Superstore Dataset Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) <br>
 **Live Dashboard:** [View Interactive Dashboard](https://datastudio.google.com/reporting/a41c5dbd-f9b7-4bfd-a46b-1b02b15ad303) <br>
-**Excel File:** [Superstore Dataver1.xlsm](https://github.com/user-attachments/files/27033504/Superstore.Dataver1.xlsm) <br>
+**Excel File:** [Superstore Dataset .xlsm](https://github.com/user-attachments/files/27037011/Superstore.Dataset.xlsm)<br>
 
 
 ---
