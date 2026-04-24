@@ -159,7 +159,9 @@ Used `LARGE()` / `SMALL()`, `INDEX()`, and `MATCH()` to identify the 10 highest 
 ---
 
 **Forecast:**<br>
-Built 2 projections: cumulative profit and month-by-month profit.
+Built 2 projections:
+- cumulative profit
+- month-by-month profit
 <p align="center">
 	<img width="1769" height="598" alt="EXCEL_sjhALfocnz" src="https://github.com/user-attachments/assets/a9ba6d87-1452-473b-93de-87df17667530" />
 </p>
