@@ -192,7 +192,7 @@ Built an interactive Excel dashboard across 5 sheets with a navigatable homepage
 
 **Visuals:**
 - USA map: green states profitable, red states at a loss
-- Donut chart: share of transactions with 30%+ discounts
+- Donut chart: share of discounts with a 30%+ rate
 - Donut chart: profit lost to 30%+ discount transactions vs total profit
 - Sub-category by profit bar chart
 - Sub-category by units sold bar chart
