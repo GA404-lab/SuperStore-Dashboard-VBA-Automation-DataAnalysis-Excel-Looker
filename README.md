@@ -3,6 +3,7 @@
 <img width="1920" height="797" alt="ezgif-4" src="https://github.com/user-attachments/assets/f02cfe45-99c3-47d7-b40a-b1c90aa578f2" />
 <img width="1707" height="960" alt="chrome_Ihr749FO55" src="https://github.com/user-attachments/assets/132c7957-c548-4550-af82-87d35104e0fc" />
   <img width="1629" height="979" alt="EXCEL_kOygmOSviu" src="https://github.com/user-attachments/assets/cded3a5a-5cd8-4caa-ae16-2948365e9df6" />
+	<img width="1014" height="488" alt="EXCEL_mBlDHeAsf8" src="https://github.com/user-attachments/assets/043487ed-db65-4cad-ae80-9f8d28dd6f85" />
 <img width="1600" height="745" alt="EXCEL_CkJlrhZrQD" src="https://github.com/user-attachments/assets/c3f1f6b3-ea51-4834-a2e0-8b3aa980258a" />
 
 </p>
@@ -206,8 +207,10 @@ Built an interactive Excel dashboard across 5 sheets with a navigatable homepage
 - Ship Mode slicer
 <p align="center">
 <img width="1920" height="797" alt="ezgif-2" src="https://github.com/user-attachments/assets/3b5edd59-cdaa-4fce-b7e9-554231a7cc51" />
+
 </p>
 
+*full picture of the dashboard is at the top of the file*
 
 
 **VBA Automation:**
