@@ -2,8 +2,8 @@
 <p align="center">
 <img width="1920" height="797" alt="ezgif-4" src="https://github.com/user-attachments/assets/f02cfe45-99c3-47d7-b40a-b1c90aa578f2" />
 <img width="1707" height="960" alt="chrome_Ihr749FO55" src="https://github.com/user-attachments/assets/132c7957-c548-4550-af82-87d35104e0fc" />
-  <img width="1629" height="979" alt="EXCEL_kOygmOSviu" src="https://github.com/user-attachments/assets/cded3a5a-5cd8-4caa-ae16-2948365e9df6" />
-	<img width="1014" height="488" alt="EXCEL_mBlDHeAsf8" src="https://github.com/user-attachments/assets/043487ed-db65-4cad-ae80-9f8d28dd6f85" />
+<img width="1662" height="977" alt="EXCEL_lbkwzKQwNm" src="https://github.com/user-attachments/assets/ec0c134e-3a2e-4a0a-8c1e-432a824826b7" />
+<img width="1014" height="488" alt="EXCEL_mBlDHeAsf8" src="https://github.com/user-attachments/assets/043487ed-db65-4cad-ae80-9f8d28dd6f85" />
 <img width="1600" height="745" alt="EXCEL_CkJlrhZrQD" src="https://github.com/user-attachments/assets/c3f1f6b3-ea51-4834-a2e0-8b3aa980258a" />
 
 </p>
@@ -17,22 +17,21 @@ A full sales analysis of a US-based retail superstore covering 4 years of transa
 **Tools:** Microsoft Excel, Google Looker Studio<br>
 **Dataset:** [Superstore Dataset Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) <br>
 **Live Dashboard:** [View Interactive Dashboard](https://datastudio.google.com/reporting/a41c5dbd-f9b7-4bfd-a46b-1b02b15ad303) <br>
-**Excel File:** [Superstore Dataset .xlsm](https://github.com/user-attachments/files/27037011/Superstore.Dataset.xlsm)<br>
-
+**Excel File:** [Superstore Dataset .xlsm](https://github.com/user-attachments/files/27057821/Superstore.Dataset.xlsm)
 
 ---
 
-## Data Cleaning
+# Data Cleaning
 <p align="center">
 
 <img width="1344" height="613" alt="Pasted image 20260421083127" src="https://github.com/user-attachments/assets/ebcac47f-8d17-49c6-946d-e3e00fc2250f" />
 </p>
 
 
-### Steps for cleaning
+## Steps for cleaning
 
 9,994 rows, 21 columns<br>
-**Period:** January 2014 – December 2017 <br>
+Data spans January 2014 to December 2017 <br>
 
 - Verified no blank cells across all 21 columns:
 ```excel
@@ -58,75 +57,83 @@ A full sales analysis of a US-based retail superstore covering 4 years of transa
   - `Ship Mode`, `Segment`, `Country`, `City`, `State`, `Region`, `Category`, `Sub-Category`: dynamic dropdown lists
   - `Sales`, `Discount`, `Profit`: decimals only
   - `Quantity`: whole numbers only
-- Converted dataset to a formal Excel Table for dynamic referencing
+- Converted dataset to a formal Excel Table and added named ranges for dynamic referencing
   
 ---
 
-## Analysis
+# Analysis
 
-1. Added Expenses column
-2. Added Cumulative Profit column
-	Sort the table by order date low to high
+- Added Expenses column
+- Added Cumulative Profit column
+	- Sort the table by order date low to high
 ```excel
  =IFERROR([@Profit] + $W1, [@Profit])
  ```
-3. Added Profit Margin column
+- Added Profit Margin column
 
 Pivot tables, scatter plots, trendlines, and forecasts built to answer each one.
 
-### **Pivot tables, scatterplots, trendlines and forecasts:**
-Average Profit: <br>1. Category
-2. Ship Mode<br>
-3. Segment<br>
-4. Region<br>
-5. Sub-Category<br>
-6. State<br>
+## **Pivot tables, scatterplots, trendlines and forecasts:**
+
+- **Various metrics against Average Profit:** 
+	- Category
+	- Ship Mode
+	- Segment
+	- Region
+	- Sub-Category
+	- State
 <p align="center">
 <img width="1777" height="472" alt="EXCEL_JiwirpUANd" src="https://github.com/user-attachments/assets/490a4d07-c719-41c7-9012-267a0e1c0ed4" />
 </p>
 
 <br>
-Profit Margin:<br>
-1. Discount<br>
-2. Expenses (Grouped by 1,000s)<br>
-3. Quantity<br>
-4. Sub-Category<br>
+
+- **Various metrics against Profit Margin:**
+	- Discount
+	- Expenses (Grouped by 1,000s)
+	- Quantity
+	- Sub-Category
 
 <p align="center">
 <img width="1600" height="745" alt="EXCEL_CkJlrhZrQD" src="https://github.com/user-attachments/assets/4adb2e74-71ad-43ca-b78d-dfdbb92e4d15" />
 </p>
 <br>
 
-**Customer return analysis:**<br>
-Built a separate table using to compare return rates for discounted vs non-discounted customers. <br>
-Column 1:
+---
+
+- **Customer return analysis:**
+	- Built a separate table using to compare return rates for discounted vs non-discounted customers.
+ 
+- Column 1:
+	- A list of all customers without duplicates
 ```excel
 	{=UNIQUE(Customer_ID)}
 ```
-Column 2:
+- Column 2:
+	- Counts how many times a customer showed up when they received a discount
 ```excel
 	=COUNTIFS(Customer_ID, Sheet2!C2, Discount, ">" & 0)
 ```
-This counts how many times a customer showed up when they received a discount<br>
-Column 3:
+
+- Column 3:
+	- This counts how many times a customer showed up when they didn't receive a discount
 ```excel
 	=COUNTIFS(Customer_ID, Sheet2!C2, Discount, "="&0)
 ```
-This counts how many times a customer showed up when they didn't receive a discount
-
-  Customers who received discounts returned at an average rate of 6.5x vs 6x without discounts.
+**Customers who received discounts returned at an average rate of 6.5x vs 6x without discounts.**
 <p align="center">
   <img width="836" height="89" alt="EXCEL_hgV6UE0CdT" src="https://github.com/user-attachments/assets/8198b869-2794-4039-93e1-222eea4ce3b9" />
 </p>
-<br>
-Made 3 scatterplots for analysis.
 
-- Profit and Avg Discount
-	- Shows a negative correlation with discount rate and profit
-- Table and Avg Profit
-  	- Shows theres **no** correlation between more profit and more sales of tables.
-- Copier and Avg Profit
-	- Shows that there is a correlation between more profit and more sales of copiers.
+---
+
+- Made 3 scatterplots for analysis.
+	- Profit and Avg Discount
+		- Shows a negative correlation with discount rate and profit
+	- Table and Avg Profit
+  		- Shows theres **no** correlation between more profit and more sales of tables.
+	- Copier and Avg Profit
+		- Shows that there is a correlation between more profit and more sales of copiers.
 
 <p align="center">
 <img width="1014" height="488" alt="EXCEL_mBlDHeAsf8" src="https://github.com/user-attachments/assets/36d56b9b-c16e-41f8-a418-ad37da998555" />
@@ -134,11 +141,10 @@ Made 3 scatterplots for analysis.
 <img width="922" height="485" alt="EXCEL_4dtHy1W0yo" src="https://github.com/user-attachments/assets/e215e6f2-041d-4363-888a-00b783da25aa" />
 </p>
 
-
-<br>
+---
 
 **Top and bottom month analysis:**<br>
-Used `LARGE()`, `INDEX()`, and `MATCH()` to identify the 10 highest and lowest performing months by profit and cross-referenced against discount averages.
+Used `LARGE()` / `SMALL()`, `INDEX()`, and `MATCH()` to identify the 10 highest and lowest performing months by profit and average discount, then compared the lists for commonalities.
 ```excel
 =LARGE($F$128:$F$175, H128)
 ```
@@ -150,14 +156,15 @@ Used `LARGE()`, `INDEX()`, and `MATCH()` to identify the 10 highest and lowest p
 <img width="1204" height="532" alt="EXCEL_hytvKpEKBm" src="https://github.com/user-attachments/assets/42b3ee17-c449-430e-8ccc-5e7c27b65ee1" />
 </p>
 
-<br>
+---
 
 **Forecast:**<br>
 Built 2 projections: cumulative profit and month-by-month profit.
 <p align="center">
 	<img width="1769" height="598" alt="EXCEL_sjhALfocnz" src="https://github.com/user-attachments/assets/a9ba6d87-1452-473b-93de-87df17667530" />
 </p>
-<br>
+
+---
 
 **Formatting**<br>
 Pivot tables, charts, and supporting analysis are organized across dedicated sheets by topic for easy navigation and reference.
@@ -167,19 +174,21 @@ Pivot tables, charts, and supporting analysis are organized across dedicated she
 </p>
 
 ---
+---
 
 ## Insights
 
 1. Technology was the most profitable category. Copiers led all sub-categories by a significant margin.
 2. The West region was the most profitable. The Central region was the least.
-3. Standard Class was the most profitable ship mode.
-4. 5 of the 10 worst profit months coincided with the 10 highest average discount months. High discounts reliably hurt performance but low discounts alone don't guarantee great performing months.
-5. Transactions at or above a 30% discount rate consistently produced losses. Removing all 30%+ discount transactions would have added approximately $135k to total profit resulting to a total profit increase from $286 to $422k.
-6. Customers are almost just as likely to be recurring customers with or without discounts.
+3. Texas was the worst perfoming state, losing the company $25k in total. California was the best performing state.
+4. 5 of the 10 worst profit months were also part of the top 10 highest average discount months. High discounts reliably hurt performance but low discounts alone don't guarantee great performing months.
+5. Customers are almost just as likely to be recurring customers with or without discounts.
+6. Transactions at or above a 30% discount rate consistently produced losses. Removing all 30%+ discount transactions would have added approximately $135k to total profit resulting to a total profit increase from $286k to $422k.
 7. The Tables sub-category lost money every single month without exception. Removing Tables entirely would have recovered ~$18,000, bringing total profit from $286k to $304k.
 8. Cumulative profit trended positively across all 4 years. Month over month profit is volatile, however it still shows positive growth over time, indicating overall business growth despite the drag from high discounts and underperforming sub-categories.
 
-Most Important Insight: Discount rates 30% and higher are extremely detrimental to the businesses, consistently making a loss. <br>
+### Most Important Insight
+Discount rates 30% and higher are extremely detrimental to the businesses, consistently making a loss. <br>
 Keeping an eye on discount related metrics are important and will be included in the dashboard.
 <p align="center">
 <img width="461" height="719" alt="EXCEL_dDqHyRi6WK" src="https://github.com/user-attachments/assets/c11cfc4b-a141-404d-9e65-8c6c6a936a55" />
@@ -187,9 +196,19 @@ Keeping an eye on discount related metrics are important and will be included in
 
 ---
 
-## Dashboard, Automation and Navigation
+# Dashboard, Automation and Navigation
 
-Built an interactive Excel dashboard across 5 sheets with a navigatable homepage and top navigation bar on all pages.
+## Dashboard
+Built an interactive Excel dashboard with a navigatable homepage and top navigation bar on all pages.
+
+**KPI:**
+- Sales
+- Expenses
+- Profit
+	- Added conditional formatting to make the text red when its negative and green when its positive
+ - Quantity Sold
+ - AVG Profit Margin
+ 	- Added conditional formatting to make the text red when under 10% and green when above 10%
 
 **Visuals:**
 - USA map: green states profitable, red states at a loss
@@ -206,14 +225,15 @@ Built an interactive Excel dashboard across 5 sheets with a navigatable homepage
 - Region slicer
 - Ship Mode slicer
 <p align="center">
-<img width="1920" height="797" alt="ezgif-2" src="https://github.com/user-attachments/assets/3b5edd59-cdaa-4fce-b7e9-554231a7cc51" />
+<img width="1920" height="1010" alt="ezgif-ExcelDashboard2" src="https://github.com/user-attachments/assets/dacccd7c-5d13-4d4f-b14b-18698662c058" />
 
 </p>
 
 *full picture of the dashboard is at the top of the file*
 
+---
 
-**VBA Automation:**
+## VBA Automation
 - Down arrow button on the data sheet automatically highlights the next empty row for swifter data entry
 - Up arrow button returns to the top of the dataset instantly
 ```vba
@@ -247,7 +267,9 @@ End Sub
 <img width="1920" height="797" alt="ezgif-3" src="https://github.com/user-attachments/assets/454b47bf-8c9d-4e19-9aee-66ce5b828845" />
 </p>
 
-**Navigation:**
+---
+
+## Navigation
 The workbook is designed to feel like a simple app rather than a raw Excel file.
 
 - Dedicated Homepage serves as the entry point to the workbook
@@ -260,7 +282,10 @@ The workbook is designed to feel like a simple app rather than a raw Excel file.
 
 </p>
 
-## Looker Studio Dashboard
+---
+---
+
+# Looker Studio Dashboard
 
 Built a companion Looker Studio dashboard alongside the Excel workbook.
 
@@ -290,12 +315,12 @@ Built a companion Looker Studio dashboard alongside the Excel workbook.
 
 </p>
 
-**[→ View Live Looker Studio Dashboard](https://datastudio.google.com/reporting/a41c5dbd-f9b7-4bfd-a46b-1b02b15ad303)**
+**[View Live Looker Studio Dashboard Here](https://datastudio.google.com/reporting/a41c5dbd-f9b7-4bfd-a46b-1b02b15ad303)**
 
 ---
 
-## Recommendations
+# Recommendations
 
-1. **Cap discounts at 29%.** Losses begin consistently at 30%+. A hard cap on discount approvals is the single highest-leverage change available. Worth an estimated $135,000 in recovered profit.
-2. **Review the Tables sub-category.** Tables bled money every month for 4 years. Whether to discontinue, reprice, or restrict discounts specifically on Tables is worth a serious internal discussion.
-3. **Investigate the Central region.** Underperformance there may reflect discount policy, product mix, or regional demand. Worth isolating before drawing conclusions.
+1. **Cap discounts at 29%.** Losses begin consistently at 30%+. A hard cap on discount approvals is the single highest-leverage change available. Worth an estimated $135k in profit.
+2. **Review the Tables sub-category.** Tables bled money every month for 4 years. Whether to discontinue, reprice, or restrict discounts specifically on Tables is worth a serious discussion.
+3. **Investigate the Central region.** Underperformance in the central region, especially Texas, may reflect discount policy, product mix, or regional demand. Worth looking deeper before drawing conclusions.
