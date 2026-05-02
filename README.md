@@ -11,7 +11,7 @@
 *Gervon Alcide*
 
 
-A full sales analysis of a US-based retail superstore covering 4 years of transaction data. I cleaned and structured the raw data in Excel, performed exploratory analysis using pivot tables, scatter plots, and graphs, built an interactive Excel dashboard with VBA automation, and a companion Looker Studio dashboard.
+A full sales analysis of a US-based retail superstore covering 4 years of real transaction data. I cleaned and structured the raw data in Excel, performed exploratory analysis using pivot tables, scatter plots, and graphs, built an interactive Excel dashboard with VBA automation, and a companion Looker Studio dashboard.
 
 ## Setup
 **Tools:** Microsoft Excel, Google Looker Studio<br>
