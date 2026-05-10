@@ -3,8 +3,10 @@
 <img width="1920" height="797" alt="ezgif-4" src="https://github.com/user-attachments/assets/f02cfe45-99c3-47d7-b40a-b1c90aa578f2" />
 <img width="1707" height="960" alt="chrome_Ihr749FO55" src="https://github.com/user-attachments/assets/132c7957-c548-4550-af82-87d35104e0fc" />
 <img width="1662" height="977" alt="EXCEL_lbkwzKQwNm" src="https://github.com/user-attachments/assets/ec0c134e-3a2e-4a0a-8c1e-432a824826b7" />
-<img width="1014" height="488" alt="EXCEL_mBlDHeAsf8" src="https://github.com/user-attachments/assets/043487ed-db65-4cad-ae80-9f8d28dd6f85" />
-<img width="1600" height="745" alt="EXCEL_CkJlrhZrQD" src="https://github.com/user-attachments/assets/c3f1f6b3-ea51-4834-a2e0-8b3aa980258a" />
+<img width="3485" height="1678" alt="Picture1" src="https://github.com/user-attachments/assets/5266e1b6-22f0-42ec-adc0-b0e2382a7782" />
+<img width="1866" height="877" alt="EXCEL_xb72hHQA9s" src="https://github.com/user-attachments/assets/f203e689-79be-4bc0-a00e-9ebd1236c082" />
+
+
 
 </p>
 
@@ -95,7 +97,7 @@ Pivot tables, scatter plots, trendlines, and forecasts built to answer each one.
 	- Sub-Category
 
 <p align="center">
-<img width="1600" height="745" alt="EXCEL_CkJlrhZrQD" src="https://github.com/user-attachments/assets/4adb2e74-71ad-43ca-b78d-dfdbb92e4d15" />
+<img width="1866" height="877" alt="EXCEL_xb72hHQA9s" src="https://github.com/user-attachments/assets/3b47c60b-2785-484c-9138-8285188c5567" />
 </p>
 <br>
 
@@ -136,9 +138,9 @@ Pivot tables, scatter plots, trendlines, and forecasts built to answer each one.
 		- Shows that there is a correlation between more profit and more sales of copiers.
 
 <p align="center">
-<img width="1014" height="488" alt="EXCEL_mBlDHeAsf8" src="https://github.com/user-attachments/assets/36d56b9b-c16e-41f8-a418-ad37da998555" />
+<img width="3485" height="1678" alt="Picture1" src="https://github.com/user-attachments/assets/791cd4c4-61bd-47be-a625-a9002d70d5c1" />
 <img width="916" height="485" alt="EXCEL_GPryFVqAc4" src="https://github.com/user-attachments/assets/6438eee6-fcf7-4b5c-a23b-de9236bcefda" />
-<img width="922" height="485" alt="EXCEL_4dtHy1W0yo" src="https://github.com/user-attachments/assets/e215e6f2-041d-4363-888a-00b783da25aa" />
+<img width="3169" height="1667" alt="Picture2" src="https://github.com/user-attachments/assets/2f1d0733-68e8-4f1a-962f-a0f5ec2b4cb4" />
 </p>
 
 ---
@@ -193,7 +195,7 @@ Pivot tables, charts, and supporting analysis are organized across dedicated she
 Discount rates 30% and higher are extremely detrimental to the businesses, consistently making a loss. <br>
 Keeping an eye on discount related metrics are important and will be included in the dashboard.
 <p align="center">
-<img width="461" height="719" alt="EXCEL_dDqHyRi6WK" src="https://github.com/user-attachments/assets/c11cfc4b-a141-404d-9e65-8c6c6a936a55" />
+<img width="461" height="719" alt="newnewnewnewnwnewrnewrwe" src="https://github.com/user-attachments/assets/435d2a05-2aae-476a-98fe-08dabdb3b5e5" />
 </p>
 
 ---
