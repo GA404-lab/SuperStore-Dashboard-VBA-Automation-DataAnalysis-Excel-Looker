@@ -200,6 +200,14 @@ Keeping an eye on discount related metrics are important and will be included in
 
 ---
 
+# Recommendations
+
+1. **Cap discounts at 29%.** Losses begin consistently at 30%+. A hard cap on discount approvals is the single highest-leverage change available. Worth an estimated $135k in profit.
+2. **Review the Tables sub-category.** Tables bled money every month for 4 years. Whether to discontinue, reprice, or restrict discounts specifically on Tables is worth a serious discussion.
+3. **Investigate the Central region.** Underperformance in the central region, especially Texas, may reflect discount policy, product mix, or regional demand. Worth looking deeper before drawing conclusions.
+
+---
+
 # Dashboard, Automation and Navigation
 
 ## Dashboard
@@ -323,8 +331,3 @@ Built a companion Looker Studio dashboard alongside the Excel workbook.
 
 ---
 
-# Recommendations
-
-1. **Cap discounts at 29%.** Losses begin consistently at 30%+. A hard cap on discount approvals is the single highest-leverage change available. Worth an estimated $135k in profit.
-2. **Review the Tables sub-category.** Tables bled money every month for 4 years. Whether to discontinue, reprice, or restrict discounts specifically on Tables is worth a serious discussion.
-3. **Investigate the Central region.** Underperformance in the central region, especially Texas, may reflect discount policy, product mix, or regional demand. Worth looking deeper before drawing conclusions.
