@@ -22,6 +22,17 @@ A full sales analysis of a US-based retail superstore covering 4 years of real t
 **Excel File:** [Superstore Dataset .xlsm](https://github.com/user-attachments/files/27057821/Superstore.Dataset.xlsm)
 
 ---
+## Table of Contents
+
+- [Setup](#setup)
+- [Data Cleaning](#data-cleaning)
+- [Analysis](#analysis)
+- [Insights](#insights)
+- [Recommendations](#recommendations)
+- [Dashboard, Automation and Navigation](#dashboard-automation-and-navigation)
+- [Looker Studio Dashboard](#looker-studio-dashboard)
+
+---
 
 # Data Cleaning
 <p align="center">
