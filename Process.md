@@ -174,7 +174,6 @@ Built 2 projections:
 Pivot tables, charts, and supporting analysis are organized across dedicated sheets by topic for easy navigation and reference.
 <p align="center">
 <img width="1920" height="797" alt="ezgif-1" src="https://github.com/user-attachments/assets/83e0c541-751f-43cb-bbf2-06627a22e5e3" />
-
 </p>
 
 ## Automated Data Entry
