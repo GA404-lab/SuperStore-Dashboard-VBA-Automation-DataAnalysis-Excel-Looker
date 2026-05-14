@@ -31,6 +31,9 @@ A full sales analysis of a US-based retail superstore covering 4 years of real t
 # Methodology
 
 This analysis examined the relationships of various metrics to answer: what is actually driving profit, and what is reducing it. I explored that through product performance, regional trends, discount behaviour, and customer patterns using pivot tables, scatter plots, trendlines, and forecasting. You can view the full documented process of cleaning, analysing, and creating automation [here](Process.md).
+<p align="center">
+<img width="1920" height="797" alt="ezgif-1" src="https://github.com/user-attachments/assets/83e0c541-751f-43cb-bbf2-06627a22e5e3" />
+</p>
 
 ---
 # Insights
